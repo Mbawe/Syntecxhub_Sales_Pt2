@@ -1,0 +1,43 @@
+================================================================
+  SALES ANALYTICS — PROJECT 1 SUMMARY
+================================================================
+  Source    : project1_long_18months_dominant.csv
+  Records   : 233  (2023-07-01 → 2024-12-31)
+  Detected  : Date='Date'  Category='Category'  Sales='Sales_Amount'
+  Total Revenue        : $303,777.35
+  Top Category         : Office Supplies ($169,205.52)
+  Best Quarter         : 2023-Q3 ($57,160.22)
+----------------------------------------------------------------
+  Monthly Aggregation (resample ME):
+    2023-07: $20,745.33
+    2023-08: $17,739.65
+    2023-09: $18,675.24
+    2023-10: $9,175.07
+    2023-11: $16,743.20
+    2023-12: $22,205.05
+    2024-01: $14,963.72
+    2024-02: $23,356.99
+    2024-03: $15,054.54
+    2024-04: $18,911.75
+    2024-05: $18,064.79
+    2024-06: $6,993.04
+    2024-07: $15,364.62
+    2024-08: $20,627.33
+    2024-09: $14,205.31
+    2024-10: $17,516.59
+    2024-11: $12,199.72
+    2024-12: $21,235.41
+  Quarterly Aggregation (resample QE):
+    2023-Q3: $57,160.22
+    2023-Q4: $48,123.32
+    2024-Q1: $53,375.25
+    2024-Q2: $43,969.58
+    2024-Q3: $50,197.26
+    2024-Q4: $50,951.72
+----------------------------------------------------------------
+  Chart choice:
+    Line (monthly/quarterly): continuous time → slope shows velocity/trend
+    Bar (by category): length encodes magnitude → precise ranking
+    Pie (<6 slices, top5+Other): angle shows share → proportional readability
+  Formatting: titles Revenue in USD, grid -- alpha 0.6, legend outside, top/right spines removed
+================================================================

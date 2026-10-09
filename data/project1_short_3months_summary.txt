@@ -1,0 +1,24 @@
+================================================================
+  SALES ANALYTICS — PROJECT 1 SUMMARY
+================================================================
+  Source    : project1_short_3months.csv
+  Records   : 35  (2024-09-04 → 2024-11-30)
+  Detected  : Date='Date'  Category='Category'  Sales='Sales_Amount'
+  Total Revenue        : $184,042.98
+  Top Category         : Training ($72,348.61)
+  Best Quarter         : 2024-Q4 ($134,149.71)
+----------------------------------------------------------------
+  Monthly Aggregation (resample ME):
+    2024-09: $49,893.27
+    2024-10: $52,299.71
+    2024-11: $81,850.00
+  Quarterly Aggregation (resample QE):
+    2024-Q3: $49,893.27
+    2024-Q4: $134,149.71
+----------------------------------------------------------------
+  Chart choice:
+    Line (monthly/quarterly): continuous time → slope shows velocity/trend
+    Bar (by category): length encodes magnitude → precise ranking
+    Pie (<6 slices, top5+Other): angle shows share → proportional readability
+  Formatting: titles Revenue in USD, grid -- alpha 0.6, legend outside, top/right spines removed
+================================================================
